@@ -29,11 +29,17 @@ failure containment: high  safety,embedded systems
 4.defect observed and dealt with :
 
                     At observation         At follow-up
+                    
 testing             failures               fault removal
+
 defect prevention   errors & error sources reduced fault injection
+
 inspection          faults                 fault removal
+
 formal verification (absence of)faults     fault absence verified
+
 fault tolerance     local failures         global failures avoided
+
 failure containment accidents              hazards resolytuib & damage reduction
 
 5.main problem type dealt with difference:
