@@ -1,20 +1,53 @@
-##How to ensure the quality of a software system
+  The software system I want to take as the example for the final homework on software quality assurance is the system 
+called “Alternative Investment System” developed by the company SAFE where I worked as an intern.
+     
+  Firstly I would like to say something about software quality assurance in my view based on the course during the past
+eight weeks.Software Quality Assurance (SQA) is a kind of software quality management to make sure that the software is in
+accordance with software developing standards and software requirements. Software quality assurance monitors software 
+projects mainly through the establishment of a series of tests and test strategies so that the developers can improve the
+projects in time.
 
-The software system I want to take as the example for the final homework on software quality assurance is the system called “Alternative Investment System” developed by the company SAFE where I worked as an intern.
-Firstly I would like to say something about software quality assurance in my view based on the course during the past eight weeks.
-Software Quality Assurance (SQA) is a kind of software quality management to make sure that the software is in accordance with software developing standards and software requirements. Software quality assurance monitors software projects mainly through the establishment of a series of tests and test strategies so that the developers can improve the projects in time.
-Different from the traditional testing, I think SQA should be done at the beginning of the project and make appropriate plans in order to keep in accordance with the developers' plan and thinking. After the general testing process such as unit testing, integration testing and system testing, defects emerges. Therefore, defect handling is throughout the whole project process, in terms of defect prevention in the beginning of the process, defect removal in the testing phase and defect containment in late phases.
-QA activities need additional support such as planning and goal setting, management, data collection, analysis and modeling. Therefore, software quality engineer is deserved to emerge at its proper moment. SQE process includes making pre-QA planning, setting quality goals, forming QA strategies and analysis and feedbacks until the quality goals are satisfied. 
-Secondly, my plan for testing the system is based on the following procedures. 
+  Different from the traditional testing, I think SQA should be done at the beginning of the project and make appropriate
+plans in order to keep in accordance with the developers' plan and thinking. After the general testing process such as 
+unit testing, integration testing and system testing, defects emerges. Therefore, defect handling is throughout the whole
+project process, in terms of defect prevention in the beginning of the process, defect removal in the testing phase and 
+defect containment in late phases.
+  QA activities need additional support such as planning and goal setting, management, data collection, analysis and 
+modeling.Therefore, software quality engineer is deserved to emerge at its proper moment. SQE process includes making 
+pre-QA planning,setting quality goals, forming QA strategies and analysis and feedbacks until the quality goals are 
+satisfied. 
+
+  Secondly, my plan for testing the system is based on the following procedures：
+
 1.	Data preparation and making test case according to the requirements made by the business department. 
-For the reason that the business logic in an exchange investment company is very complicated, our test plans usually begins at the beginning of the system, that is to say, the requirements part. After understanding the logic and the detailed requirements the business needs, data preparation and an overall test case should be made as complete as possible. 
+For the reason that the business logic in an exchange investment company is very complicated, our test plans usually 
+begins at the beginning of the system, that is to say, the requirements part. After understanding the logic and the 
+detailed requirements the business needs, data preparation and an overall test case should be made as complete as 
+possible. 
+
 2.	Unit testing. 
-Based on the Basic Info functional model, after finishing the coding, I tested it by adding a new staff information and checked it in database, so as the other models.
+Based on the Basic Info functional model, after finishing the coding, I tested it by adding a new staff information 
+and checked it in database, so as the other models.
+
 3.	Integration testing
-After finishing the coding part and unit testing, I integrated my codes with others’ and began integration testing on several key parts to make sure that different models work together without collisions.
+After finishing the coding part and unit testing, I integrated my codes with others’ and began integration testing on
+several key parts to make sure that different models work together without collisions.
+
 4.	Defect handling
-After the first two procedures, defects should be recorded and codes should be reviewed. For example, data verification like data length, data format is not in accordance with that in the database while the data passes the foregrounding without checking. 
+After the first two procedures, defects should be recorded and codes should be reviewed. For example, data verification
+like data length, data format is not in accordance with that in the database while the data passes the foregrounding 
+without checking.
+
 5.	System testing
-System testing falls within the scope of black box testing which requires no knowledge of the inner design of the code or logic. Testers should test the whole system according to the test case and test whether the functions are all realized. System testing is performed on the entire system in the context of a Functional Requirement Specification. System testing tests not only the design, but also the behavior and even the believed expectations of the customer. It is also intended to test up to and beyond the bounds defined in the requirements specification
+System testing falls within the scope of black box testing which requires no knowledge of the inner design of the code
+or logic. Testers should test the whole system according to the test case and test whether the functions are all 
+realized. System testing is performed on the entire system in the context of a Functional Requirement Specification. 
+System testing tests not only the design, but also the behavior and even the believed expectations of the customer. 
+It is also intended to test up to and beyond the bounds defined in the requirements specification.
+
 6.	Regression testing
-Regression testing is very necessary within a complicated system, because after several times of reviewing and changing, some codes would lost its function replaced by some other codes. It is to  uncover new software bugs, or regressions, in existing functional and non-functional areas of a system after changes such as enhancements, patches or configuration changes and ensure that the change would not introduced new faults. One of the main reasons for regression testing is to determine whether a change in one part of the software affects other parts of the software. 
+Regression testing is very necessary within a complicated system, because after several times of reviewing and changing,
+some codes would lost its function replaced by some other codes. It is to  uncover new software bugs, or regressions,
+in existing functional and non-functional areas of a system after changes such as enhancements, patches or configuration
+changes and ensure that the change would not introduced new faults. One of the main reasons for regression testing is 
+to determine whether a change in one part of the software affects other parts of the software. 
